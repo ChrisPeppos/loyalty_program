@@ -11,21 +11,21 @@ As soon as you RUN the application you will get a list of options:
   * 5 Exit
   
 **Option 1**:
-  adds a new customer to the list of customers and automatically provides it with a CustomerId (unique and incremental)
+  1. adds a new customer to the list of customers and automatically provides it with a CustomerId (unique and incremental)
   
 **Option 2**:
-  Input -> Customer ID, Transaction Amount, Date of transaction(transaction date was made manual in order to be able to add a range of dates and not wait for a whole week)
-  adds a new transaction to the list of transactions and automatically provides it with a TransactionId(unique and incremental)
-  also has CustomerId field in order to keep track of multiple transactions by the same Customer
+  1. Input -> Customer ID, Transaction Amount, Date of transaction(transaction date was made manual in order to be able to add a range of dates and not wait for a whole week)
+  1. adds a new transaction to the list of transactions and automatically provides it with a TransactionId(unique and incremental)
+  1. also has CustomerId field in order to keep track of multiple transactions by the same Customer
   
 **Option 3**:
-  Input -> Customer ID
-  You can see on the console the data of a specific customer like current pending and available points, date of the last transaction and the amount of consecutive days with      transactions
+  1. Input -> Customer ID
+  1. You can see on the console the data of a specific customer like current pending and available points, date of the last transaction and the amount of consecutive days with      transactions
   
 **Option 4**:
-  Input -> Customer ID
-  Checks if the Customer if aligible for upgrading its Pending points to Available points and if the Customer does then it automatically upgrades them
-  Besides this it also checks if the Customer made any transactions in the last 5 weeks and if not, all loyalty points are reset to 0
+  1. Input -> Customer ID
+  1. Checks if the Customer if aligible for upgrading its Pending points to Available points and if the Customer does then it automatically upgrades them
+  1. Besides this it also checks if the Customer made any transactions in the last 5 weeks and if not, all loyalty points are reset to 0
   
 **Option 5**:
-  Exits the application
+  1. Exits the application
