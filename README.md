@@ -4,11 +4,11 @@ We have a loyalty program for our customers. We give them points every time they
 
 As soon as you RUN the application you will get a list of options:
   
-  * 1. Add new customer
-  * 2. Add new transaction
-  * 3. See customer's data
-  * 4. Update loyalty points.
-  * 5. Exit
+  * 1 Add new customer
+  * 2 Add new transaction
+  * 3 See customer's data
+  * 4 Update loyalty points.
+  * 5 Exit
   
 **Option 1**:
   adds a new customer to the list of customers and automatically provides it with a CustomerId (unique and incremental)
